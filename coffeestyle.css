@@ -1,0 +1,146 @@
+body{
+    background-color: #ffffcc;
+    color: #330000;
+    font-family: "Verdana";
+}
+
+#title{
+    background-color: #ccaa66;
+    text-align: center;
+    border-style: solid;
+}
+
+#footer{
+    background-color: #ccaa66;
+    font-style: italic;
+    text-align: center;
+    height: 90px;
+    width: 750px;
+    margin-top: 300px;
+    border-top-style: solid;
+    padding: 10px;
+    width: auto;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+}
+
+#leftnavcolumn{
+    background-color: #E8D882;
+    position: relative;
+    float: left;
+    width: 18.3%;
+    height: 295px;
+    border-left-style: solid;
+    padding-top: 5px;
+    font-size: 16px;
+    padding-left: 19px;
+    white-space: pre-line;
+}
+
+#rightmain{
+    background-color: #f1e8b0;
+    position: relative;
+    float: right;
+    width: 77%;
+    height: 280px;
+    border-right-style: solid;
+    padding-left: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+
+}
+
+section{
+    scroll-snap-align: top;
+}
+
+#container{
+    border-top-style: solid;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 25%;
+    height: 500px;
+    width: 60%;
+    background-color: #f1e8b0;
+}
+
+img{
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    width: 200px;
+}
+
+.directory{
+    text-decoration: none;
+}
+
+.email{
+    color: darkorchid;
+}
+
+a:visited{
+    color: darkorchid;
+}
+
+table{
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    height: 200px;
+}
+
+#thcolor{
+    background-color: #ccaa66;
+}
+
+h3{
+    margin: 0px;
+    width: 50%;
+}
+
+#noncoffee{
+    float:right;
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#coffee{
+    float:left;
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#c{
+    float: left;
+}
+
+#nc{
+    float: right;
+}
+
+h6{
+    margin: 5px;
+}
+
+#musicplayer{
+    text-align: center;
+}
+
+audio{
+    width: 90%;
+}
+
+h2{
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+}
+
+.jobmail{
+    text-align: center;
+}
