@@ -144,3 +144,160 @@ h2{
 .jobmail{
     text-align: center;
 }
+
+@media screen and (min-width: 1001px) {
+    .container {
+      margin: 0;
+      padding: 0;
+      width: auto;
+      max-width: 1100px;
+      margin: auto;
+      height: max-content;
+    }
+    .logo h1 {
+      font-size: 1.3rem;
+    }
+    .leftcolumn {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: auto;
+      font-size: 1.3rem;
+    }
+    .rightcolumn {
+      float: none;
+      height: 400px;
+      width: auto;
+      padding: 5px;
+    }
+    .footer {
+      font-size: 16px;
+      padding-top: 5px;
+      width: auto;
+      margin: 0;
+    }
+    .content img {
+      float: right;
+      display: flex;
+      margin: auto;
+      max-width: 100%;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80px;
+    }
+    .content {
+      float: none;
+      position: relative;
+      font-size: 1.3rem;
+    }
+    .navBar {
+      margin: 20px;
+    }
+    .wholecolumn {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .container {
+      margin: 0;
+      padding: 0;
+      width: auto;
+      height: fit-content;
+    }
+    .logo h1 {
+      font-size: 20px;
+    }
+    .leftcolumn {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: auto;
+    }
+    .rightcolumn {
+      float: none;
+      height: 300px;
+      width: auto;
+      padding: 5px;
+    }
+    .footer {
+      font-size: 16px;
+      padding-top: 5px;
+      width: auto;
+      margin: 0;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80px;
+    }
+    .content {
+      float: none;
+      position: relative;
+    }
+    .navBar {
+      margin: 20px;
+      text-align: center;
+    }
+    .wholecolumn {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  @media screen and (max-width: 870px) {
+    .logo h1 {
+      font-size: 22px;
+    }
+    .rightcolumn {
+      height: auto;
+      width: auto;
+      padding: 5px;
+    }
+    .footer {
+      font-size: 16px;
+      padding-top: 5px;
+      width: auto;
+      margin: 0;
+    }
+    .content img {
+      float: none;
+      display: flex;
+      margin: auto;
+      max-width: 100%;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .logo h1 {
+      font-size: 16px;
+    }
+    .leftcolumn {
+      flex-direction: row;
+      justify-content: space-between;
+      float: none;
+      border-bottom: solid;
+    }
+    .navBar {
+      margin: 10px;
+    }
+    .wholecolumn {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .leftcolumn {
+      flex-wrap: wrap;
+    }
+    .footer {
+      font-size: 12px;
+    }
+  }
